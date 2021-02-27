@@ -1,0 +1,22 @@
+QuoteOfTheDay
+
+1. request goes to localhost:8080/todaysQuote
+2. It returns a String representing the quote
+3. Everyday is a new quote.
+
+Application for serving the quote
+1. Spring Boot application with maven 
+
+
+Class Diagram
+
+Quote  - Class having 
+		 Unique List of quotes - qouteLists()
+		 getTodayQuote(int day) //method that returns the quote on mentioned day
+		 setQuoteForTheDay(int day, String quote) //method that sets the quote on the specified day
+
+
+
+
+
+
